@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- SOS: all fragments must have an id so that the fragment-manager can reload them when the app
+restarts after a config-change! -->
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_fragment"
+    android:name="com.hfad.workout.WorkoutListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
